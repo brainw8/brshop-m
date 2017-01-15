@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+    <link rel="stylesheet" type="text/css" href="css/base-style.css">
+  </head>
+  <body>
+
+    <header class="main-header clearfix">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container clearfix">
+
+       <div class="broad-crums">
+        <h1 class="menu-title">Средства для ухода</h1>
+        <ul>
+          <li>Главная</li>
+          <li>Магазин</li>
+          <li>Средства для ухода</li>
+        </ul>
+      </div>
+      <div class="shop-menu-catalog">
+        <legend class="main-content-title">
+            производители:
+        </legend>
+        <form action="scrips/index.php">
+          <label for="baxter">Baxter of California
+            <input type="radio" id="baxter" name="goods1" checked>
+          </label>
+          <label for="natty">Mr Natty
+            <input type="radio" id="natty" name="goods2">
+          </label>
+          <label for="suav">Suavecito
+            <input type="radio" id="suav" name="goods3" checked>
+          </label>
+          <label for="malin">Malin + Goetz
+            <input type="radio" id="malin" name="goods4">
+          </label>
+          <label for="myrrays">Malin + Goetz
+            <input type="radio" id="myrrays" name="goods5">
+          </label>
+          <label for="amer">American Crew
+            <input type="radio" id="amer" name="goods6" checked>
+          </label>
+        </form>
+        <legend class="main-content-title">
+            Группы товаров:
+        </legend>
+        <button class="shop-btn btn-show">показать</button>
+      </div>
+      <div class="shop-catalog clearfix">
+
+        <article class="shop-catalog-goods">
+          <img src="#" alt="" width="220" height="160">
+          <div>
+            <a href="#">
+              <span class="category"> Набор для путешествий</span>
+              <span class="item"> «Baxter of California» </span>
+            </a>
+          </div>
+          <strong class="shop-item-buy-price">
+            2900 РУБ.
+          </strong>
+          <a href="#" class="btn shop-item-buy-btn">купить</a>
+        </article>
+
+        <article class="shop-catalog-goods">
+          <img src="#" alt="" width="220" height="160">
+          <div>
+            <a href="#">
+              <span class="category"> Увлажняющий кондиционер</span>
+              <span class="item">«Baxter of California»</span>
+            </a>
+          </div>
+          <p>
+
+          </p>
+          <strong class="shop-item-buy-price">
+            750 РУБ.
+          </strong>
+          <a href="#" class="btn shop-item-buy-btn">купить</a>
+        </article>
+
+        <article class="shop-catalog-goods">
+          <img src="#" alt="" width="220" height="160">
+          <div>
+            <a href="#">
+              <span class="category"> Гель для волос</span>
+              <span class="item">«SUAVECITO»</span>
+            </a>
+          </div>
+
+          <strong class="shop-item-buy-price">
+            290 РУБ.
+          </strong>
+          <a href="#" class="btn shop-item-buy-btn">купить</a>
+        </article>
+
+        <article class="shop-catalog-goods">
+          <img src="#" alt="" width="220" height="160">
+          <div>
+            <a href="#">
+              <span lass="category"> Глина для укладки волос</span>
+              <span class="item">«American crew»</span>
+            </a>
+          </div>
+
+          <strong class="shop-item-buy-price">
+            500 РУБ.
+          </strong>
+          <a href="#" class="btn shop-item-buy-btn">купить</a>
+        </article>
+
+        <article class="shop-catalog-goods">
+          <img src="#" alt="" width="220" height="160">
+         <div>
+            <a href="#">
+              <span class="category"> Набор для бритья</span>
+              <span class="item">«Baxter of California»</span>
+            </a>
+          </div>
+          <strong class="shop-item-buy-price">
+            3900 РУБ.
+          </strong>
+          <a href="#" class="btn shop-item-buy-btn">купить</a>
+        </article>
+      </div>
+      <div class="shop-page-number">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+      </div>
+
+
+    </main>
+    <footer class="main-footer clearfix">
+      <div class="container">
+        <section class="footer-contacts">
+          <p>
+            Барбершоп "Бородинский" <br>
+            Адрес: г. Санкт-Петербург, Б.Конюшенная,д 19/8 <br>
+            </p>
+            <a href="#">Как нас найти?</a>
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a href="#" class="social-btn social-btn-vk">Вконтакте</a>
+          <a href="#" class="social-btn social-btn-fb">Фейсбук</a>
+          <a href="#" class="social-btn social-btn-ins">Инстаграмм </a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a href="localhost">HTML Academy</a>
+        </section>
+      </div>
+
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,167 @@
+body {
+
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f4f1ee;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+.main-header {
+  background-color: #000000;
+  min-height: 70px;
+  margin-bottom: 50px;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main-navigation  {
+float: left;
+width: 780px;
+position: relative;
+
+}
+
+.user-block {
+  float: right;
+  width: 140px;
+}
+
+.index-logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 368;
+  min-height: 210px;
+  margin-bottom: 40px;
+}
+
+.featuries {
+  margin-bottom: 70px;
+
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  min-height: 200px;
+  margin-right: 20px;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.index-content {
+  background-color: #FFFFFF;
+  min-height: 430px;
+  margin-bottom: 60px;
+
+
+}
+
+.index-content-left {
+  float: left;
+  width: 300px;
+  padding: 60px 80px;
+}
+
+.index-content-right {
+  float: right;
+  width: 200px;
+  margin: 60px 80px;
+}
+
+.main-footer {
+  background-color: #242424;
+  border-bottom: 1px solid transparent;
+}
+
+.footer-contacts {
+  float: left;
+  width: 230px;
+  min-height: 120px;
+
+}
+
+.footer-social {
+  float: left;
+  width: 120px;
+  min-height: 120px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.footer-copyright {
+  float: right;
+  width: 150px;
+  min-height: 120px;
+  }
+
+main {
+
+  border-top: 1px solid black;
+
+}
+
+.shop-menu-catalog {
+  width: 230px;
+  float: left;
+}
+
+.shop-catalog {
+  width: 700px;
+  float: right;
+}
+
+.shop-catalog-goods {
+  float: left;
+  width: 220px;
+  min-height: 285px;
+}
+
+.shop-page-number {
+  clear: both;
+  margin-left: 230px;
+}
+
+
+
+.price-content-left {
+  width: 380px;
+  float: left;
+}
+
+.price-content-right {
+  width: 460px;
+  float: right;
+}
+
+.item-content {
+  min-height: 680px;
+  margin-bottom: 0px;
+}
+
+.shop-item-left {
+  float: left;
+  width: 460px;
+  min-height: 680px;
+  background-color: #ffffff;
+
+}
+
+ .shop-item-right {
+  float: right;
+  width: 400px;
+
+
+}

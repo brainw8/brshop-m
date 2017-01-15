@@ -1,0 +1,136 @@
+body {
+  min-width: 960px;
+  font-family: "PT sans Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  background: #000 url(/img/background-img.jpg) no-repeat center top;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  background-color: #000;
+  text-decoration: none;
+  text-align: center;
+  width: 140px;
+  padding: 11px 0;
+  margin-top: 28px;
+  font-family: "PT sans Narrow", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #663d15;
+}
+
+.main-footer {
+  background-color: #242424;
+  margin-top: 10px;
+  min-height: 190px;
+  padding-top: 41px
+}
+
+.main-footer a {
+  color: #fff;
+}
+
+.main-footer a:hover {
+  text-decoration: none;
+}
+
+.footer-contacts {
+  float: left;
+  width: 380px;
+  min-height: 120px;
+  vertical-align: top;
+  margin-top: 15px;
+}
+
+.footer-social {
+  float: left;
+  width: 150px;
+  min-height: 120px;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.footer-social p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+.social-btn {
+  width: 43px;
+  height: 43px;
+  margin: 0 2px;
+  display: inline-block;
+  background-color: #000000;
+  text-decoration: none;
+  font-size: 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-position 1.5s, background-color 1.5s;
+}
+
+.social-btn-vk {
+  background-image: url(/img/vk.png);
+}
+
+.social-btn-fb {
+  background-image: url(/img/fb.png);
+}
+
+.social-btn-ins {
+  background-image: url(/img/ins.png);
+}
+
+.social-btn-vk:hover {
+  background-image: url(/img/vk-b.png);
+  background-color: #ffffff;
+}
+
+.social-btn-fb:hover {
+  background-image: url(/img/fb-b.png);
+  background-color: #ffffff;
+}
+
+.social-btn-ins:hover {
+  background-image: url(/img/ins-b.png);
+  background-color: #ffffff;
+}
+
+.footer-copyright {
+  float: right;
+  width: 150px;
+  min-height: 120px;
+}
+
+.footer-copyright .btn {
+  margin: 0;
+}
+
+.footer-copyright p {
+  text-align: center;
+}
+
